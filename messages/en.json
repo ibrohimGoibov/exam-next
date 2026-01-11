@@ -1,5 +1,87 @@
 {
   "HomePage": {
-    "title": "Hello world!"
-  }
+    "learnMore": "Learn more",
+    "aboutTitle": "About us",
+    "aboutDesc": "We are a leading trading and distribution company specializing in the import and sale of a wide range of products across Tajikistan.",
+    "valuesTitle": "Values",
+    "valuesDesc": "Commitment to quality service, building customer trust, and continuous development.",
+    "goalsTitle": "Goals",
+    "goalsDesc": "Today, Capital-T is a modern, dynamically developing company with strong potential and long-term prospects.",
+    "goals": {
+      "item1": "Opening a distribution center in GBAO",
+      "item2": "Warehouse expansion",
+      "item3": "Distribution network growth"
+    },
+    "mapTitle": "Coverage map",
+    "newsTitle": "News",
+    "jobsTitle": "Vacancies",
+    "partnerTitle": "Become a partner",
+    "features": {
+      "saveTitle": "File saving",
+      "saveDesc": "Your files are saved automatically as you type",
+      "searchTitle": "Search",
+      "searchDesc": "Search across all your files in one place",
+      "langTitle": "Languages",
+      "langDesc": "Support for more than 100 languages",
+      "calendarTitle": "Calendar",
+      "calendarDesc": "Filter files by date",
+      "notifyTitle": "Notifications",
+      "notifyDesc": "Real-time alerts and mentions"
+    },
+    "more": "Learn more",
+  "jobs": {
+    "title": "Vacancies",
+    "all": "All vacancies",
+    "items": [
+      {
+        "exp": "1+ year experience",
+        "city": "Dushanbe",
+        "title": "Sales Representative",
+        "desc": "Sales department supervisor, Dushanbe and regions. About the company: We are a growing manufacturer of household and toilet soap."
+      },
+      {
+        "exp": "No experience required",
+        "city": "Khujand",
+        "title": "Merchandiser",
+        "desc": "Full-time position. About the company: We are the largest distribution company in Tajikistan with many years of market experience."
+      },
+      {
+        "exp": "1+ year experience",
+        "city": "Bokhtar",
+        "title": "Supervisor",
+        "desc": "Sales department supervisor. About the company: We are the largest distribution company in Tajikistan."
+      }
+    ]
+  },
+  "partner": {
+    "title": "Become a partner",
+    "name": "Full name",
+    "company": "Company name",
+    "email": "Email",
+    "phone": "Phone",
+    "upload": "Upload proposal",
+    "limit": "Maximum file size 5 MB",
+    "send": "Submit",
+    "emailValue": "contact@company.com",
+    "phoneValue": "+992 88 888 0101"
+  },
+    "title": "News",
+    "intro": {
+      "title": "Leading trading and distribution company",
+      "p1": "CAPITAL-T is one of the largest distribution companies in the Republic of Tajikistan, engaged in wholesale trade and distribution of food products, perfumes and cosmetics, hygiene products, and more.",
+      "p2": "Since 2000, CAPITAL-T LLC has been developing dynamically, establishing new partnerships, expanding its client base, improving infrastructure, and enhancing software solutions.",
+      "p3": "The company continuously works on expanding its sales geography to cover remote and hard-to-reach regions of the country."
+    },
+    "cards": [
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." },
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." },
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." },
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." },
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." },
+      { "title": "Title", "desc": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." }
+    ],
+    "more": "Learn more",
+    "all": "All news"
 }
+}
+
