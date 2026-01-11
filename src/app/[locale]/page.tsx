@@ -186,15 +186,15 @@ const Page = () => {
       <section className="max-w-7xl mx-auto px-4 py-20">
       <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
 
-        <div className="lg:col-span-3 bg-white rounded-[32px] p-10 flex flex-col items-center text-center shadow-sm">
+        <div className="lg:col-span-3 bg-white dark:bg-black rounded-[32px] p-10 flex flex-col items-center text-center shadow-sm">
           <div className="w-10 h-10 bg-yellow-400 rounded-[10px] mb-6 relative">
-            <div className="absolute inset-2 bg-white rounded" />
+            <div className="absolute inset-2 bg-white dark:bg-black rounded" />
           </div>
           <h3 className="text-[36px] font-bold">15 000 кв.м</h3>
           <p className="text-gray-500 mt-2">площадь складов</p>
         </div>
 
-        <div className="lg:col-span-3 bg-white rounded-[32px] p-10 flex flex-col items-center text-center shadow-sm">
+        <div className="lg:col-span-3 bg-white dark:bg-black rounded-[32px] p-10 flex flex-col items-center text-center shadow-sm">
           <div className="w-14 h-8 border-2 border-yellow-400 rounded mb-6 relative">
             <div className="absolute -bottom-2 left-2 w-3 h-3 bg-yellow-400 rounded-full" />
             <div className="absolute -bottom-2 right-2 w-3 h-3 bg-yellow-400 rounded-full" />
@@ -203,7 +203,7 @@ const Page = () => {
           <p className="text-gray-500 mt-2">в нашем автопарке</p>
         </div>
 
-        <div className="lg:col-span-2 bg-white rounded-[28px] p-8 flex items-center justify-between shadow-sm">
+        <div className="lg:col-span-2 bg-white dark:bg-black rounded-[28px] p-8 flex items-center justify-between shadow-sm">
           <div>
             <h3 className="text-[32px] font-bold">8 000+</h3>
             <p className="text-gray-500 mt-1">постоянных клиентов</p>
@@ -215,7 +215,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-2 bg-white rounded-[28px] p-8 flex items-center justify-between shadow-sm">
+        <div className="lg:col-span-2 bg-white dark:bg-black rounded-[28px] p-8 flex items-center justify-between shadow-sm">
           <div>
             <h3 className="text-[32px] font-bold">5+</h3>
             <p className="text-gray-500 mt-1">эксклюзивных контрактов</p>
@@ -226,7 +226,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="lg:col-span-2 bg-white rounded-[28px] p-8 flex items-center justify-between shadow-sm">
+        <div className="lg:col-span-2 bg-white dark:bg-black rounded-[28px] p-8 flex items-center justify-between shadow-sm">
           <div>
             <h3 className="text-[32px] font-bold">47+</h3>
             <p className="text-gray-500 mt-1">охваченных городов</p>
@@ -328,7 +328,7 @@ const Page = () => {
     <div className="w-20 h-1 bg-yellow-500 mx-auto mt-4 mb-14" />
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-      <div className="bg-white rounded-2xl p-6">
+      <div className="bg-white dark:bg-black rounded-2xl p-6">
         <div className="flex justify-between items-center mb-4">
           <span className="bg-gray-900 text-white text-sm px-4 py-1 rounded-full">
             {t('jobs.items.0.exp')}
@@ -348,7 +348,7 @@ const Page = () => {
         </a>
       </div>
 
-      <div className="bg-white rounded-2xl p-6">
+      <div className="bg-white dark:bg-black rounded-2xl p-6">
         <div className="flex justify-between items-center mb-4">
           <span className="bg-gray-900 text-white text-sm px-4 py-1 rounded-full">
             {t('jobs.items.1.exp')}
@@ -368,7 +368,7 @@ const Page = () => {
         </a>
       </div>
 
-      <div className="bg-white rounded-2xl p-6">
+      <div className="bg-white dark:bg-black rounded-2xl p-6">
         <div className="flex justify-between items-center mb-4">
           <span className="bg-gray-900 text-white text-sm px-4 py-1 rounded-full">
             {t('jobs.items.2.exp')}
@@ -399,7 +399,7 @@ const Page = () => {
 
 <section className="py-20">
   <div className="max-w-7xl mx-auto px-4">
-    <div className="bg-gray-200 rounded-3xl p-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <div className="bg-gray-200 dark:bg-black rounded-3xl p-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
       <div>
         <h2 className="text-4xl font-semibold mb-8 text-gray-900">
           {t('partner.title')}
@@ -431,7 +431,7 @@ const Page = () => {
             />
           </div>
 
-          <label className="flex items-center gap-4 bg-white rounded-2xl px-6 py-4 cursor-pointer">
+          <label className="flex items-center gap-4  dark:bg-black dark:text-white rounded-2xl px-6 py-4 cursor-pointer">
             <div className="w-10 h-10 rounded-full bg-yellow-500 flex items-center justify-center text-white text-xl">
               ↑
             </div>
@@ -439,7 +439,7 @@ const Page = () => {
               <p className="font-medium">
                 {t('partner.upload')}
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-500 dark:text-white">
                 {t('partner.limit')}
               </p>
             </div>
@@ -461,14 +461,14 @@ const Page = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="bg-white rounded-2xl px-6 py-4 flex items-center gap-3">
+          <div className=" rounded-2xl px-6 py-4 flex items-center gap-3">
             <span className="text-xl">✉</span>
             <span className="font-medium">
               {t('partner.emailValue')}
             </span>
           </div>
 
-          <div className="bg-white rounded-2xl px-6 py-4 flex items-center gap-3">
+          <div className=" rounded-2xl px-6 py-4 flex items-center gap-3">
             <span className="text-xl">📞</span>
             <span className="font-medium">
               {t('partner.phoneValue')}
